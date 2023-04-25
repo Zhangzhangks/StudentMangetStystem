@@ -1,0 +1,13 @@
+:root {
+  --el-filter-color: #fff;
+  --el-traingle-color: #fff;
+}
+
+.el-table__column-filter-trigger i {
+  color: var(--el-filter-color) !important;
+  margin-left: 5px;
+}
+.el-table .descending .sort-caret.descending {
+
+  border-top-color: var(--el-traingle-color) !important;
+}
